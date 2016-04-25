@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1937a9f9-451a-487c-9cc0-6136b18e4919" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dal/cnn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dal/sql.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dal/sql.java" afterPath="$PROJECT_DIR$/src/dal/sqlquery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JVCPM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +37,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dal/sql.java">
+      <file leaf-file-name="sqlquery.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dal/sqlquery.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -92,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/jvcpm.java" />
         <option value="$PROJECT_DIR$/src/dal/cnn.java" />
         <option value="$PROJECT_DIR$/src/dal/sql.java" />
+        <option value="$PROJECT_DIR$/src/dal/sqlquery.java" />
       </list>
     </option>
   </component>
@@ -505,7 +506,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1608" height="864" extended-state="7" />
+    <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -616,7 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dal/sql.java">
+    <entry file="file://$PROJECT_DIR$/src/dal/sqlquery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
