@@ -11,27 +11,26 @@ public class jvcpm {
     static public void main(String[] args)   {
 
         Properties config = new Properties();
-        InputStream entrada = null;
+        InputStream inFile = null;
 
         try {
 
-            entrada = new FileInputStream("EnterpriseConfig.properties");
-
-            // cargamos el archivo de config
-            config.load(entrada);
-
-            // obtenemos las config y las imprimimos
+            inFile = new FileInputStream("EnterpriseConfig.properties");
+            config.load(inFile);
+            // Load Properties
             System.out.println(config.getProperty("ip"));
             System.out.println(config.getProperty("database"));
             System.out.println(config.getProperty("user"));
             System.out.println(config.getProperty("pass"));
+            // Load frmLogin
+            gui.frmLogin.launch();
 
         } catch (IOException ex) {
             ex.printStackTrace();
         } finally {
-            if (entrada != null) {
+            if (inFile != null) {
                 try {
-                    entrada.close();
+                    inFile.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
